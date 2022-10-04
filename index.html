@@ -123,7 +123,7 @@
             color: rgba(255, 255, 255, 0.123);
             align-items: flex-start;
             justify-content: left;
-            font-family: 'Explora', cursive;
+            font-family: 'Explora', cursive; /*Font looks like shit*/
             font-size: calc(15em + 1vw);
             right: 0;
             top: 150px;
@@ -283,6 +283,20 @@
                 );
             }
         }
+
+        #home a span {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            width: 24px;
+            height: 24px;
+            margin-left: -12px;
+            border-left: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            box-sizing: border-box;
+        }
     </style>
     
     
@@ -320,7 +334,7 @@
                 <h2>tmsvn.</h2>
                 <h2>tmsvn.</h2>
             </div>
-            <a href="#aboutme"><span>T</span></a>
+            <a href="#aboutme"><span></span></a>
         </section>
         <section id="aboutme">
             <div>test</div>
